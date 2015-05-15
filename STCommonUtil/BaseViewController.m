@@ -15,7 +15,7 @@
 {
     if(self = [super init])
     {
-        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
+        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 80, 44)];
         titleLabel.backgroundColor = [UIColor clearColor];
         titleLabel.font = [UIFont boldSystemFontOfSize:20];
         titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -28,8 +28,8 @@
 }
 -(void)viewDidLoad{
     [super viewDidLoad];
-    [self.navigationController.navigationBar addSubview:titleLabel];
-    titleLabel.center = CGPointMake(self.view.frame.size.width/2, titleLabel.center.y);
+    self.navigationItem.titleView = titleLabel;
+    
 }
 
 
