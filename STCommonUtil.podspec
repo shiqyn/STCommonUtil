@@ -11,5 +11,6 @@ s.source			= { :git => 'https://github.com/shiqyn/STCommonUtil.git' }
 s.platform			= :ios, '6.0'
 s.source_files		= 'STCommonUtil/*'
 s.frameworks		= 'CoreGraphics'
+s.dependency "MBProgressHUD"
 s.requires_arc		= true
 end
