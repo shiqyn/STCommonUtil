@@ -15,9 +15,9 @@
 {
     if(self = [super init])
     {
-        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 200, 44)];
+        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
         titleLabel.backgroundColor = [UIColor clearColor];
-        titleLabel.font = [UIFont systemFontOfSize:20];
+        titleLabel.font = [UIFont boldSystemFontOfSize:20];
         titleLabel.textAlignment = NSTextAlignmentCenter;
         titleLabel.textColor =[UIColor whiteColor];//kDefaultTextColor;
         titleLabel.numberOfLines= 2;
@@ -28,8 +28,10 @@
 }
 -(void)viewDidLoad{
     [super viewDidLoad];
-     [self.navigationController.navigationBar addSubview:titleLabel];
+    [self.navigationController.navigationBar addSubview:titleLabel];
+    titleLabel.center = CGPointMake(self.view.frame.size.width/2, titleLabel.center.y);
 }
+
 
 -(void)showLoadingHUDWithInfoString:(NSString*)infostring
 {
