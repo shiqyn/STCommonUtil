@@ -26,7 +26,10 @@
     }
     return self;
 }
-
+-(void)viewDidLoad{
+    [super viewDidLoad];
+     [self.navigationController.navigationBar addSubview:titleLabel];
+}
 
 -(void)showLoadingHUDWithInfoString:(NSString*)infostring
 {
@@ -47,7 +50,7 @@
     
     [tipHub show:YES];
     
-    [self.navigationController.navigationBar addSubview:titleLabel];
+   
 
     
 }
