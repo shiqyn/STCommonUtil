@@ -15,7 +15,7 @@
 {
     if(self = [super init])
     {
-        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
+        titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 200, 44)];
         titleLabel.backgroundColor = [UIColor clearColor];
         titleLabel.font = [UIFont systemFontOfSize:20];
         titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -47,7 +47,8 @@
     
     [tipHub show:YES];
     
-    
+    [self.navigationController.navigationBar addSubview:titleLabel];
+
     
 }
 -(void)hideLoadingHUD
