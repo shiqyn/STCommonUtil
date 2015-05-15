@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4BE81B057ADC004CFDAD /* NSDictionary+Util.m */; };
+		413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4BEA1B057ADC004CFDAD /* UIButton+Util.m */; };
 		41556E6C1AFC9A4300112066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6B1AFC9A4300112066 /* main.m */; };
 		41556E6F1AFC9A4300112066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6E1AFC9A4300112066 /* AppDelegate.m */; };
 		41556E721AFC9A4300112066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E711AFC9A4300112066 /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413C4BE71B057ADC004CFDAD /* NSDictionary+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Util.h"; sourceTree = "<group>"; };
+		413C4BE81B057ADC004CFDAD /* NSDictionary+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Util.m"; sourceTree = "<group>"; };
+		413C4BE91B057ADC004CFDAD /* UIButton+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Util.h"; sourceTree = "<group>"; };
+		413C4BEA1B057ADC004CFDAD /* UIButton+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Util.m"; sourceTree = "<group>"; };
 		41556E661AFC9A4300112066 /* STCommonUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCommonUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41556E6A1AFC9A4300112066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41556E6B1AFC9A4300112066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +132,10 @@
 		41556E8F1AFC9A5900112066 /* STCommonUtil */ = {
 			isa = PBXGroup;
 			children = (
+				413C4BE71B057ADC004CFDAD /* NSDictionary+Util.h */,
+				413C4BE81B057ADC004CFDAD /* NSDictionary+Util.m */,
+				413C4BE91B057ADC004CFDAD /* UIButton+Util.h */,
+				413C4BEA1B057ADC004CFDAD /* UIButton+Util.m */,
 				41556E921AFC9AB300112066 /* STCommonUtil.h */,
 				41556E931AFC9AB300112066 /* STCommonUtil.m */,
 			);
@@ -236,6 +246,8 @@
 				41556E721AFC9A4300112066 /* ViewController.m in Sources */,
 				41556E6F1AFC9A4300112066 /* AppDelegate.m in Sources */,
 				41556E6C1AFC9A4300112066 /* main.m in Sources */,
+				413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */,
+				413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */,
 				41556E941AFC9AB300112066 /* STCommonUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 				41556E8B1AFC9A4300112066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41556E8C1AFC9A4300112066 /* Build configuration list for PBXNativeTarget "STCommonUtilDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +452,7 @@
 				41556E8E1AFC9A4300112066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
