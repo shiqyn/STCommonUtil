@@ -10,6 +10,8 @@
 		413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4BE81B057ADC004CFDAD /* NSDictionary+Util.m */; };
 		413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4BEA1B057ADC004CFDAD /* UIButton+Util.m */; };
 		413C4BEF1B057CF8004CFDAD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4BEE1B057CF8004CFDAD /* BaseViewController.m */; };
+		413C4C4C1B05A467004CFDAD /* iniConfigReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4C4B1B05A467004CFDAD /* iniConfigReader.m */; };
+		413C4C4E1B05A48B004CFDAD /* STCommonUtil.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 413C4C4D1B05A48B004CFDAD /* STCommonUtil.podspec */; };
 		41556E6C1AFC9A4300112066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6B1AFC9A4300112066 /* main.m */; };
 		41556E6F1AFC9A4300112066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6E1AFC9A4300112066 /* AppDelegate.m */; };
 		41556E721AFC9A4300112066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E711AFC9A4300112066 /* ViewController.m */; };
@@ -38,6 +40,9 @@
 		413C4BEA1B057ADC004CFDAD /* UIButton+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Util.m"; sourceTree = "<group>"; };
 		413C4BED1B057CF8004CFDAD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		413C4BEE1B057CF8004CFDAD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		413C4C4A1B05A467004CFDAD /* iniConfigReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iniConfigReader.h; sourceTree = "<group>"; };
+		413C4C4B1B05A467004CFDAD /* iniConfigReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iniConfigReader.m; sourceTree = "<group>"; };
+		413C4C4D1B05A48B004CFDAD /* STCommonUtil.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = STCommonUtil.podspec; path = ../STCommonUtil.podspec; sourceTree = "<group>"; };
 		41556E661AFC9A4300112066 /* STCommonUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCommonUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41556E6A1AFC9A4300112066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41556E6B1AFC9A4300112066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		41556E5D1AFC9A4300112066 = {
 			isa = PBXGroup;
 			children = (
+				413C4C4D1B05A48B004CFDAD /* STCommonUtil.podspec */,
 				41556E8F1AFC9A5900112066 /* STCommonUtil */,
 				41556E681AFC9A4300112066 /* STCommonUtilDemo */,
 				41556E821AFC9A4300112066 /* STCommonUtilDemoTests */,
@@ -142,6 +148,8 @@
 		41556E8F1AFC9A5900112066 /* STCommonUtil */ = {
 			isa = PBXGroup;
 			children = (
+				413C4C4A1B05A467004CFDAD /* iniConfigReader.h */,
+				413C4C4B1B05A467004CFDAD /* iniConfigReader.m */,
 				413C4BE71B057ADC004CFDAD /* NSDictionary+Util.h */,
 				413C4BE81B057ADC004CFDAD /* NSDictionary+Util.m */,
 				413C4BE91B057ADC004CFDAD /* UIButton+Util.h */,
@@ -256,6 +264,7 @@
 			files = (
 				41556E751AFC9A4300112066 /* Main.storyboard in Resources */,
 				41556E7A1AFC9A4300112066 /* LaunchScreen.xib in Resources */,
+				413C4C4E1B05A48B004CFDAD /* STCommonUtil.podspec in Resources */,
 				41556E771AFC9A4300112066 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +321,7 @@
 				41556E6C1AFC9A4300112066 /* main.m in Sources */,
 				413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */,
 				413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */,
+				413C4C4C1B05A467004CFDAD /* iniConfigReader.m in Sources */,
 				413C4BEF1B057CF8004CFDAD /* BaseViewController.m in Sources */,
 				41556E941AFC9AB300112066 /* STCommonUtil.m in Sources */,
 			);
