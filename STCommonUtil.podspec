@@ -12,5 +12,6 @@ s.platform			= :ios, '6.0'
 s.source_files		= 'STCommonUtil/*'
 s.frameworks		= 'CoreGraphics'
 s.dependency "MBProgressHUD"
+s.dependency "FrameAccessor"
 s.requires_arc		= true
 end
