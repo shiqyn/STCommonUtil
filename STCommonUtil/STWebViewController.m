@@ -9,7 +9,7 @@
 #import "STWebViewController.h"
 
 @interface STWebViewController ()
-
+@property(nonatomic, strong)NJKWebViewProgress* progressProxy;
 @end
 
 @implementation STWebViewController
@@ -81,16 +81,16 @@
     webView.delegate = self;
     [self.view addSubview:webView];
     
-    theProgressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, 1)];
+    _theProgressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, 1)];
     _progressProxy = [[NJKWebViewProgress alloc] init];
-    theProgressView.progressTintColor =  [UIColor blueColor];
-    theProgressView.trackTintColor = [UIColor clearColor];
+    _theProgressView.progressTintColor =  [UIColor blueColor];
+    _theProgressView.trackTintColor = [UIColor clearColor];
     webView.delegate = _progressProxy;
     _progressProxy.webViewProxyDelegate = self;
     _progressProxy.progressDelegate = self;
-    theProgressView.transform = CGAffineTransformMakeScale(1.0f, 1.50f);
-    [self.view addSubview:theProgressView];
-    [self.view bringSubviewToFront:theProgressView];
+    _theProgressView.transform = CGAffineTransformMakeScale(1.0f, 1.50f);
+    [self.view addSubview:_theProgressView];
+    [self.view bringSubviewToFront:_theProgressView];
     
     self.urlString = [self.urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 
@@ -105,21 +105,21 @@
 {
     if (progress == 0.0) {
         [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-        theProgressView.progress = 0;
+        _theProgressView.progress = 0;
         [UIView animateWithDuration:0.27 animations:^{
-            theProgressView.alpha = 1.0;
+            _theProgressView.alpha = 1.0;
         }];
     }
     if (progress == 1.0) {
         [loadingActivietyView stopAnimating];
         
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-        [UIView animateWithDuration:0.27 delay:progress - theProgressView.progress options:0 animations:^{
-            theProgressView.alpha = 0.0;
+        [UIView animateWithDuration:0.27 delay:progress - _theProgressView.progress options:0 animations:^{
+            _theProgressView.alpha = 0.0;
         } completion:nil];
     }
     
-    [theProgressView setProgress:progress animated:NO];
+    [_theProgressView setProgress:progress animated:NO];
 }
 
 #pragma  UIWebViewDelegate

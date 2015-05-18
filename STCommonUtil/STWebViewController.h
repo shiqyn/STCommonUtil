@@ -17,7 +17,7 @@
     UIWebView* webView;
     
     
-    UIProgressView* theProgressView;
+    
     
  
     UIActivityIndicatorView* loadingActivietyView;
@@ -30,7 +30,7 @@
     UIBarButtonItem *_backButton;
     UIBarButtonItem *_flexibleSpace;
 }
-@property(nonatomic, strong)NJKWebViewProgress* progressProxy;
 
+@property(nonatomic, strong)UIProgressView* theProgressView;
 @property(nonatomic, copy)NSString* urlString;
 @end
