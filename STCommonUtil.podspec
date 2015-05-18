@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name				= 'STCommonUtil'
-s.version			= '0.17'
+s.version			= '0.18'
 s.summary			= 'my common util'
 s.homepage			= 'https://github.com/shiqyn/STCommonUtil'
 s.license			= 'MIT'
@@ -14,4 +14,5 @@ s.frameworks		= 'CoreGraphics'
 s.dependency "MBProgressHUD"
 s.dependency "FrameAccessor"
 s.requires_arc		= true
+s.resource ='STCommonUtil/STCommonImages/*'
 end
