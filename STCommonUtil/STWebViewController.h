@@ -31,6 +31,7 @@
     UIBarButtonItem *_flexibleSpace;
 }
 
-@property(nonatomic, strong)UIProgressView* theProgressView;
+
 @property(nonatomic, copy)NSString* urlString;
+@property(nonatomic, strong)UIColor* progressTintColor;
 @end

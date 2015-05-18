@@ -10,6 +10,7 @@
 
 @interface STWebViewController ()
 @property(nonatomic, strong)NJKWebViewProgress* progressProxy;
+@property(nonatomic, strong)UIProgressView* theProgressView;
 @end
 
 @implementation STWebViewController
@@ -83,7 +84,7 @@
     
     _theProgressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, 1)];
     _progressProxy = [[NJKWebViewProgress alloc] init];
-    _theProgressView.progressTintColor =  [UIColor blueColor];
+    _theProgressView.progressTintColor =  self.progressTintColor?self.progressTintColor:[UIColor blueColor];
     _theProgressView.trackTintColor = [UIColor clearColor];
     webView.delegate = _progressProxy;
     _progressProxy.webViewProxyDelegate = self;
