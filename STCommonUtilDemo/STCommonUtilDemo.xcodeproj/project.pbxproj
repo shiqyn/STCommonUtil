@@ -23,6 +23,7 @@
 		413C4D861B097F7D004CFDAD /* icon-fresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 413C4D7D1B097F7D004CFDAD /* icon-fresh.png */; };
 		413C4D871B097F7D004CFDAD /* icon-fresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 413C4D7E1B097F7D004CFDAD /* icon-fresh@2x.png */; };
 		413C4D881B097F7D004CFDAD /* icon-fresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 413C4D7F1B097F7D004CFDAD /* icon-fresh@3x.png */; };
+		413C4DA51B0AE5F4004CFDAD /* UIView+MJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 413C4DA41B0AE5F4004CFDAD /* UIView+MJAlertView.m */; };
 		41556E6C1AFC9A4300112066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6B1AFC9A4300112066 /* main.m */; };
 		41556E6F1AFC9A4300112066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E6E1AFC9A4300112066 /* AppDelegate.m */; };
 		41556E721AFC9A4300112066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E711AFC9A4300112066 /* ViewController.m */; };
@@ -67,6 +68,8 @@
 		413C4D7D1B097F7D004CFDAD /* icon-fresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-fresh.png"; sourceTree = "<group>"; };
 		413C4D7E1B097F7D004CFDAD /* icon-fresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-fresh@2x.png"; sourceTree = "<group>"; };
 		413C4D7F1B097F7D004CFDAD /* icon-fresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-fresh@3x.png"; sourceTree = "<group>"; };
+		413C4DA31B0AE5F4004CFDAD /* UIView+MJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJAlertView.h"; sourceTree = "<group>"; };
+		413C4DA41B0AE5F4004CFDAD /* UIView+MJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJAlertView.m"; sourceTree = "<group>"; };
 		41556E661AFC9A4300112066 /* STCommonUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCommonUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41556E6A1AFC9A4300112066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41556E6B1AFC9A4300112066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 		41556E8F1AFC9A5900112066 /* STCommonUtil */ = {
 			isa = PBXGroup;
 			children = (
+				413C4DA31B0AE5F4004CFDAD /* UIView+MJAlertView.h */,
+				413C4DA41B0AE5F4004CFDAD /* UIView+MJAlertView.m */,
 				413C4D761B097F7D004CFDAD /* STCommonImages */,
 				413C4D5D1B097F66004CFDAD /* NJKWebViewProgress.h */,
 				413C4D5E1B097F66004CFDAD /* NJKWebViewProgress.m */,
@@ -375,6 +380,7 @@
 				413C4D751B097F66004CFDAD /* STWebViewController.m in Sources */,
 				41556E6C1AFC9A4300112066 /* main.m in Sources */,
 				413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */,
+				413C4DA51B0AE5F4004CFDAD /* UIView+MJAlertView.m in Sources */,
 				413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */,
 				413C4C4C1B05A467004CFDAD /* iniConfigReader.m in Sources */,
 				413C4BEF1B057CF8004CFDAD /* BaseViewController.m in Sources */,
