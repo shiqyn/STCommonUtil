@@ -32,6 +32,7 @@
 		41556E7A1AFC9A4300112066 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41556E781AFC9A4300112066 /* LaunchScreen.xib */; };
 		41556E861AFC9A4300112066 /* STCommonUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E851AFC9A4300112066 /* STCommonUtilDemoTests.m */; };
 		41556E941AFC9AB300112066 /* STCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 41556E931AFC9AB300112066 /* STCommonUtil.m */; };
+		41E1EA111B0DB0B900F3ED80 /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E1EA101B0DB0B900F3ED80 /* NSDictionary+JSONString.m */; };
 		5488EA62ABD6E29D7DAB8BC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E38A8B1D5FD63DFFF238FE45 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,8 @@
 		41556E851AFC9A4300112066 /* STCommonUtilDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCommonUtilDemoTests.m; sourceTree = "<group>"; };
 		41556E921AFC9AB300112066 /* STCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCommonUtil.h; sourceTree = "<group>"; };
 		41556E931AFC9AB300112066 /* STCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCommonUtil.m; sourceTree = "<group>"; };
+		41E1EA0F1B0DB0B900F3ED80 /* NSDictionary+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONString.h"; sourceTree = "<group>"; };
+		41E1EA101B0DB0B900F3ED80 /* NSDictionary+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONString.m"; sourceTree = "<group>"; };
 		87C6B22B02772D507AA5E71E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AB84F4BC7FC85B0C32DD5AEC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E38A8B1D5FD63DFFF238FE45 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +211,8 @@
 				41556E931AFC9AB300112066 /* STCommonUtil.m */,
 				413C4BED1B057CF8004CFDAD /* BaseViewController.h */,
 				413C4BEE1B057CF8004CFDAD /* BaseViewController.m */,
+				41E1EA0F1B0DB0B900F3ED80 /* NSDictionary+JSONString.h */,
+				41E1EA101B0DB0B900F3ED80 /* NSDictionary+JSONString.m */,
 			);
 			name = STCommonUtil;
 			path = ../STCommonUtil;
@@ -382,6 +387,7 @@
 				413C4BEC1B057ADC004CFDAD /* UIButton+Util.m in Sources */,
 				413C4DA51B0AE5F4004CFDAD /* UIView+MJAlertView.m in Sources */,
 				413C4BEB1B057ADC004CFDAD /* NSDictionary+Util.m in Sources */,
+				41E1EA111B0DB0B900F3ED80 /* NSDictionary+JSONString.m in Sources */,
 				413C4C4C1B05A467004CFDAD /* iniConfigReader.m in Sources */,
 				413C4BEF1B057CF8004CFDAD /* BaseViewController.m in Sources */,
 				413C4D6B1B097F66004CFDAD /* NJKWebViewProgress.m in Sources */,
