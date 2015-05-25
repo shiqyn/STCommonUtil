@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name				= 'STCommonUtil'
-s.version			= '0.25'
+s.version			= '0.26'
 s.summary			= 'my common util'
 s.homepage			= 'https://github.com/shiqyn/STCommonUtil'
 s.license			= 'MIT'

@@ -13,6 +13,7 @@
 
 +(BButton*)createBButtonWithTitle:(NSString*)title
                              type:(BButtonType)type
+                             font:(UIFont*)fnt
                            target:(id)target
                          selector:(SEL)selector
                             frame:(CGRect)frm;

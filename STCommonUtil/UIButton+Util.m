@@ -14,11 +14,13 @@
 
 +(BButton*)createBButtonWithTitle:(NSString*)title
                              type:(BButtonType)type
+                             font:(UIFont*)fnt
                            target:(id)target
                          selector:(SEL)selector
                             frame:(CGRect)frm{
     BButton* btn = [[BButton alloc] initWithFrame:frm type:type style:BButtonStyleBootstrapV3];
     [btn setTitle:title forState:UIControlStateNormal];
+    btn.titleLabel.font = fnt;
     [btn addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     return btn;
 }
