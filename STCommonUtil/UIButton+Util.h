@@ -7,9 +7,16 @@
 //
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-
+#import <BButton.h>
 
 @interface UIButton(Utility)
+
++(BButton*)createBButtonWithTitle:(NSString*)title
+                             type:(BButtonType)type
+                           target:(id)target
+                         selector:(SEL)selector
+                            frame:(CGRect)frm;
+
 
 +(UIButton *)moduleButtonWithTitle:(NSString *)title
 						  target:(id)target

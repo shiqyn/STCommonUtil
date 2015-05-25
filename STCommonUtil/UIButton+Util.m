@@ -12,6 +12,16 @@
 
  @implementation UIButton(Utility)
 
++(BButton*)createBButtonWithTitle:(NSString*)title
+                             type:(BButtonType)type
+                           target:(id)target
+                         selector:(SEL)selector
+                            frame:(CGRect)frm{
+    BButton* btn = [[BButton alloc] initWithFrame:frm type:type style:BButtonStyleBootstrapV3];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
+    return btn;
+}
 
 +(UIButton *)moduleButtonWithTitle:(NSString *)title
 						 target:(id)target

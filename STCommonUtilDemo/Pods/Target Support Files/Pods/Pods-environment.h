@@ -6,6 +6,12 @@
 // project.
 
 
+// BButton
+#define COCOAPODS_POD_AVAILABLE_BButton
+#define COCOAPODS_VERSION_MAJOR_BButton 4
+#define COCOAPODS_VERSION_MINOR_BButton 0
+#define COCOAPODS_VERSION_PATCH_BButton 2
+
 // FrameAccessor
 #define COCOAPODS_POD_AVAILABLE_FrameAccessor
 #define COCOAPODS_VERSION_MAJOR_FrameAccessor 2
